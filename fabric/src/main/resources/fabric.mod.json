@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "hexeffects",
+  "version": "${version}",
+  "name": "HexEffects",
+  "description": "HexEffects addon for Hex Casting",
+  "authors": [
+    "krypton11"
+  ],
+  "contact": {
+    "homepage": "https://krypton11.github.io/hexeffects",
+    "sources": "https://github.com/krypton11/hexeffects"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hexeffects.fabric.HexEffectsFabric"
+    ],
+    "client": [
+      "net.hexeffects.fabric.HexEffectsClientFabric"
+    ]
+  },
+  "mixins": [
+    "hexeffects-common.mixins.json",
+    "hexeffects.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraftVersion}",
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=${fabricKotlinVersion}",
+    "architectury": ">=${architecturyVersion}",
+    "hexcasting": ">=${hexcastingVersion}"
+  }
+}

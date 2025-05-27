@@ -1,0 +1,27 @@
+# Changes here will be overwritten by Copier. NEVER EDIT MANUALLY
+# See: https://copier.readthedocs.io/en/stable/configuring/#the-copier-answersyml-file
+_commit: v0.1.13
+_src_path: gh:hexdoc-dev/hexdoc-hexcasting-template
+author: krypton11
+book_id: hexeffects:hexeffectsbook
+default_branch: main
+github_repo: hexeffects
+gradle_mod_version_key: modVersion
+hexdoc_mod_plugin_classname: HexEffectsModPlugin
+hexdoc_plugin_classname: HexEffectsPlugin
+java_lang:
+    ext: java
+    src: java
+java_package: net/hexeffects
+mod_display_name: HexEffects
+modid: hexeffects
+multiloader: true
+package_export_root: doc/src/hexdoc_hexeffects/_export
+package_name: hexdoc-hexeffects
+package_slug: hexdoc_hexeffects
+package_src: doc/src/hexdoc_hexeffects
+pages_url: https://krypton11.github.io/hexeffects
+pattern_regex:
+    per_world_value: 'true'
+    regex: make\(\s*"(?P<name>[a-zA-Z0-9_\/]+)",\s*(?:new )?(?:ActionRegistryEntry|OperationAction)\(\s*HexPattern\.fromAngles\(\s*"(?P<signature>[aqweds]+)",\s*HexDir.(?P<startdir>\w+)\)
+pattern_registry: registry/HexEffectsPatternRegistry.java

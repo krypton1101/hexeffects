@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/configuring/#the-copier-answersyml-file
+_commit: v0.0.9
+_src_path: gh:FallingColors/hexdummy
+author: krypton11
+capitalize_platforms: false
+classname: HexEffects
+default_branch: main
+description: HexEffects addon for Hex Casting
+display_name: HexEffects
+github_repo: hexeffects
+hexcasting_version: 0.11.2
+homepage_url: https://krypton11.github.io/hexeffects
+initial_mod_version: 0.0.1
+java_version: 17
+license: MIT
+mappings_name: Mojmap
+modid: hexeffects
+package: net.hexeffects
+sources_url: https://github.com/krypton11/hexeffects
