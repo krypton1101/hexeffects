@@ -1,0 +1,19 @@
+author: krypton11
+book_id: "hexeffects:hexeffectsbook"
+default_branch: main
+github_repo: hexeffects
+gradle_mod_version_key: modVersion
+hexdoc_mod_plugin_classname: HexEffectsModPlugin
+hexdoc_plugin_classname: HexEffectsPlugin
+java_lang:
+  ext: java
+  src: java
+java_package: net/hexeffects
+mod_display_name: HexEffects
+modid: hexeffects
+multiloader: true
+pages_url: https://krypton11.github.io/hexeffects
+pattern_regex:
+  regex: '(?P<is_per_world>register|registerPerWorld)\(HexPattern\.fromAngles\("(?P<signature>[qweasd]+)",\s*HexDir\.(?P<startdir>\w+)\),\s*"(?P<name>[^"]+)"?'
+  per_world_value: registerPerWorld
+pattern_registry: registry/HexEffectsPatternRegistry.java
